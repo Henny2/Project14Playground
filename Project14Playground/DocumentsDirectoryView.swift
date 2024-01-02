@@ -49,11 +49,16 @@ extension FileManager {
         return loaded
     }
     
-    func encodeFile(input: String, filename: String) throws{
+    func encodeFile<T: Codable>(input: T, filename: String) throws{
         let encoder = JSONEncoder()
         let encoded = try encoder.encode(input)
         let url = URL.documentsDirectory.appending(path: filename)
-        try encoded.write(to: url)
+        do {
+            try encoded.write(to: url)
+        }
+        catch {
+            fatalError("There was an issue with the writing")
+        }
     }
 }
 
