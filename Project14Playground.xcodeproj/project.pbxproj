@@ -14,6 +14,7 @@
 		402426002B421B2D00BC9706 /* ComparableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402425FF2B421B2D00BC9706 /* ComparableView.swift */; };
 		402426022B436D5700BC9706 /* DocumentsDirectoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402426012B436D5700BC9706 /* DocumentsDirectoryView.swift */; };
 		402426042B436F9200BC9706 /* EnumSwitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402426032B436F9200BC9706 /* EnumSwitchView.swift */; };
+		402426062B451AE300BC9706 /* MapKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402426052B451AE300BC9706 /* MapKitView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		402425FF2B421B2D00BC9706 /* ComparableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparableView.swift; sourceTree = "<group>"; };
 		402426012B436D5700BC9706 /* DocumentsDirectoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsDirectoryView.swift; sourceTree = "<group>"; };
 		402426032B436F9200BC9706 /* EnumSwitchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumSwitchView.swift; sourceTree = "<group>"; };
+		402426052B451AE300BC9706 /* MapKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				402425F12B42159600BC9706 /* Project14PlaygroundApp.swift */,
+				402426052B451AE300BC9706 /* MapKitView.swift */,
 				402425F32B42159600BC9706 /* ContentView.swift */,
 				402425FF2B421B2D00BC9706 /* ComparableView.swift */,
 				402426012B436D5700BC9706 /* DocumentsDirectoryView.swift */,
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				402426062B451AE300BC9706 /* MapKitView.swift in Sources */,
 				402426042B436F9200BC9706 /* EnumSwitchView.swift in Sources */,
 				402425F42B42159600BC9706 /* ContentView.swift in Sources */,
 				402426022B436D5700BC9706 /* DocumentsDirectoryView.swift in Sources */,
