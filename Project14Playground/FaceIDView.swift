@@ -31,8 +31,7 @@ struct FaceIDView: View {
         var error: NSError?
         
         // step 2
-        if context.canEvaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, error: &error) // & let it be written inside that place
-        {
+        if context.canEvaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, error: &error){
             print("uses biometrics")
             let reason = "We need to unlock your data."
             context.evaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, localizedReason: reason) { success, authenticationError in
